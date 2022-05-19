@@ -1,0 +1,152 @@
+/* header start
+
+header {
+    background-color: darkblue;
+    padding: 10px;
+
+}
+
+.main-header {
+    font-size: 22px;
+    font-style: italic;
+    display: inline;
+    color: lightblue;
+    
+}
+
+.other-header {
+    float: right;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 0px;
+    display: inline;
+    overflow: auto; 
+   
+        
+}
+.other-header2 {
+    color: lightblue;
+    margin-right: 13px;
+}
+ header style end */
+
+  /* header style start */
+
+header.site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 70px;
+}
+
+nav a {
+    color: lightblue;
+
+}
+
+.h1-name {
+    font-family: cursive;
+    font-style: italic;
+    color: lightblue;
+}
+/* header style end */
+
+/* project area style start */
+
+body {
+    background-color: mediumblue;
+    margin-bottom: 150px;
+
+}
+
+.portfolio-container {
+    margin-top: 120px;
+}
+
+h1 {
+    
+    color: lightblue;
+}
+
+h2 {
+    color: lightblue;
+}
+
+.project-work {
+    margin: 32px 48px;
+    padding: 16px;
+}
+
+.project-name {
+    border-bottom: solid 1px lightblue;
+    display: block;
+    margin-bottom: 32px;
+}
+
+img {
+    width: 240px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.img1 {
+    float: right;
+    overflow: auto;
+    
+}
+
+.img2{
+    float: left;
+    overflow: auto;
+    
+}
+
+p {
+    color: lightblue;
+    width: 1050px;
+    font-size: large;
+}
+
+.portfolio-p {
+    position: relative;
+    left: 60px;
+}
+
+.portfolio-p2 {
+    position: relative;
+    left: 60px;
+}
+
+
+
+/* footer style start */
+
+footer {
+    font-family: sans-serif;
+    font-size: 16px;
+    border-top: solid 3px darkblue;
+    height: 66px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: darkblue;
+    position: fixed;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 3px -2px darkblue;
+    display: block;
+    overflow: auto;
+}
+
+.media-link {
+    height: 32px;
+    margin-right: -60px;
+    margin-top: 0px;
+    
+}

@@ -1,0 +1,149 @@
+/* header style start 
+header {
+    background-color: darkblue;
+    padding: 10px;
+    overflow: auto;
+        
+}
+
+.main-header {
+    font-size: 22px;
+    font-style: italic;
+    display: inline;
+    color: lightblue;
+    
+}
+
+.other-header {
+    float: right;
+    font-size: 18px;
+    margin-left: 1080;
+    margin-right: 0px;
+    display: inline;
+    overflow: auto;
+    
+}
+
+.other-header2 {
+    color: lightblue;
+    margin-right: 13px;
+}
+ header style end */
+ 
+ /* header style start */
+
+header.site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 70px;
+}
+
+nav a {
+    color: lightblue;
+
+}
+
+.h1-name {
+    font-family: cursive;
+    font-style: italic;
+    color: lightblue;
+}
+
+/* header style end */
+
+
+.about-h1 {
+    color: lightblue;
+    margin-top: 120px;
+}
+
+h2 {
+    color: lightblue;
+}
+
+p {
+    color: lightblue;
+    width: 1050px;
+    font-size: large;
+}
+
+.about-p {
+    position: relative;
+    left: 60px;
+}
+
+.about-p2 {
+    position: relative;
+    left: 60px;
+}
+
+.about-section {
+    margin: 150px 48px;
+    padding: 16px;
+}
+
+.about-name {
+    border-bottom: solid 1px lightblue;
+    display: block;
+    margin-bottom: 2px;
+}
+
+body {
+    background-color: mediumblue;
+}
+
+/* img style start */
+
+img {
+    width: 160px;
+    border-radius: 10%;
+}
+
+.about-img {
+    float: right;
+    overflow: auto;
+    
+}
+
+.about-img2 {
+    float: left;
+    overflow: auto;
+}
+
+p {
+    color: lightblue;
+    font-size: large;
+}
+
+
+/* footer style start */
+
+footer {
+    font-family: sans-serif;
+    font-size: 16px;
+    border-top: solid 3px darkblue;
+    height: 66px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: darkblue;
+    position: fixed;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 3px -2px darkblue;
+    display: block;
+    overflow: auto;
+}
+
+.media-link {
+    height: 32px;
+    margin-right: 50px;
+    
+}
