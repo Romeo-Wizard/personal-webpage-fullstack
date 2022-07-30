@@ -1,34 +1,4 @@
- /*header {
-    background-color: darkblue;
-    padding: 10px;
-    margin: 0px 0px;
-    overflow: auto;
-    position: fixed;
-    box-sizing: border-box;
-}
-
-.main-header {
-    font-size: 22px;
-    font-style: italic;
-    color: lightblue;
-    position: relative;
-}
-
-.other-header {
-    font-size: 18px;
-    position: absolute;
-    top: 6px;
-    right: 6px;
-}
-.other-header2 {
-    color: lightblue;
-    margin-right: 13px;
-    position: absolute;
-    right: 6px;
-    top: 6px;
-}  */
-
-/* header style start */
+ /* header style start */
 
 header.site {
     display: flex;
@@ -58,8 +28,6 @@ nav a {
 
 h1 {
     color: lightblue;
-    
-    
 }
 
 h2 {
@@ -74,17 +42,11 @@ body {
     font-family:cursive;
     font-weight: 100;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 130px;
     font-size: 2em;
     transform: rotate(-15deg);
     color: lightblue;
 }
-
-
-
-
-
-
 
 /* footer style start */
 

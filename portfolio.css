@@ -1,35 +1,3 @@
-/* header start
-
-header {
-    background-color: darkblue;
-    padding: 10px;
-
-}
-
-.main-header {
-    font-size: 22px;
-    font-style: italic;
-    display: inline;
-    color: lightblue;
-    
-}
-
-.other-header {
-    float: right;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: 0px;
-    display: inline;
-    overflow: auto; 
-   
-        
-}
-.other-header2 {
-    color: lightblue;
-    margin-right: 13px;
-}
- header style end */
-
   /* header style start */
 
 header.site {
@@ -61,7 +29,6 @@ nav a {
 body {
     background-color: mediumblue;
     margin-bottom: 150px;
-
 }
 
 .portfolio-container {
@@ -69,7 +36,6 @@ body {
 }
 
 h1 {
-    
     color: lightblue;
 }
 
@@ -97,32 +63,27 @@ img {
 .img1 {
     float: right;
     overflow: auto;
-    
 }
 
 .img2{
     float: left;
     overflow: auto;
-    
 }
 
 p {
     color: lightblue;
-    width: 1050px;
     font-size: large;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .portfolio-p {
-    position: relative;
     left: 60px;
 }
 
 .portfolio-p2 {
-    position: relative;
-    left: 60px;
+    left: 1px;
 }
-
-
 
 /* footer style start */
 
@@ -148,5 +109,4 @@ footer {
     height: 32px;
     margin-right: -60px;
     margin-top: 0px;
-    
 }
